@@ -3,15 +3,15 @@ A bootstrap 4 template modal
 A simple app include all necessary files
 =====================================================
 Site map
-|- assets
-    |- css
+1- assets
+    - css
         |- bootstrap.min.css
         |- fontawesome-all.min.css
         |- style.css
-    |- images
+    - images
         |- favicon.png
         |- home.png
-    |- js
+    - js
         |- bootstrap.min.js
         |- html5shiv.min.js
         |- jquery-3.2.1.min.js
@@ -19,7 +19,7 @@ Site map
         |- respond.min.js
         |- script.js
         |- smooth-scroll.min.js
-    |- webfont
+    - webfont
         |- all-fontawesome-fonts
         |- Roboto-Regular.ttf
-|- index.html
+2- index.html
