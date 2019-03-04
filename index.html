@@ -9,17 +9,18 @@
 	<meta name="theme-color" content="#f0f0f0">
 	<!-- website description -->
 	<meta name="description" content="The description of the Template">
-	<meta name="keywords" content=", , ">
-    <meta name="author" content="Berkani oussama ala eddine">
+	<meta name="keywords" content="key, word, here">
+  <meta name="author" content="Berkani oussama ala eddine">
 	<!-- website title -->
 	<title>Title</title>
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
 	<!-- Plugin Css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/fontawesome-all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
 	<!-- Theme css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 	<!--[if it IE 9]>
 	<script src="assets/js/html5shiv.min.js"></script>
 	<script src="assets/js/respond.min.js"></script>
@@ -31,21 +32,27 @@
 	<!--====================-->
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top">
 			<div class="container">
-				<a class="navbar-brand" href="#">Title</a>
+				<a class="navbar-brand" href="#">SiteLogo</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				    <i class="fas fa-bars"></i>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				    <ul class="navbar-nav ml-auto">
 					    <li class="nav-item">
-							<a class="nav-link" data-scroll href="#home">Home</a>
+								<a class="nav-link" data-scroll href="#hero">Home</a>
 					    </li>
 					    <li class="nav-item">
-							<a class="nav-link" data-scroll href="#about">About</a>
+								<a class="nav-link" data-scroll href="#about">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" data-scroll href="#services">Services</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" data-scroll href="#portfolio">Portfolio</a>
 					    </li>
 					    <li class="nav-item">
-							<a class="nav-link" data-scroll href="#contact">Contact</a>
-						</li>
+								<a class="nav-link" data-scroll href="#contact">Contact</a>
+							</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Dropdown
@@ -64,33 +71,55 @@
 	<!--====================-->
 	<!-- End section navbar -->
 
-	<!-- Start section home -->
+	<!-- Start section hero -->
 	<!--====================-->
-		<div class="home" id="home">
-			<div class="container">
-				<h1>A Big Title</h1>
-				<p>A small description for the web site or the service</p>
-				<a href="#" class="btn btn-primary">Action Button</a>
-			</div><!-- end container -->
+		<div class="hero" id="hero">
+			<div class="overlay d-flex justify-content-center align-items-center">
+				<div class="container">
+					<h1 class="title">A Big Title</h1>
+					<p class="subtitle">A small description for the web site or the services.</p>
+					<a href="#" class="btn btn-primary">Action Button</a>
+				</div><!-- end container -->
+		</div>
 		</div>
 	<!--====================-->
-	<!-- End section home -->
+	<!-- End section hero -->
 
 	<!-- Start section about -->
 	<!--====================-->
 		<div class="about" id="about">
 			<div class="container">
-				<h2>About</h2>
+				<h2 class="section-header">About</h2>
 			</div><!-- end container -->
 		</div>
 	<!--====================-->
 	<!-- End section about -->
 
-	<!-- Start section about -->
+	<!-- Start section services -->
+	<!--====================-->
+		<div class="services" id="services">
+			<div class="container">
+				<h2 class="section-header">Services</h2>
+			</div><!-- end container -->
+		</div>
+	<!--====================-->
+	<!-- End section services -->
+
+	<!-- Start section portfolio -->
+	<!--====================-->
+		<div class="portfolio" id="portfolio">
+			<div class="container">
+				<h2 class="section-header">Portfolio</h2>
+			</div><!-- end container -->
+		</div>
+	<!--====================-->
+	<!-- End section portfolio -->
+
+	<!-- Start section contact -->
 	<!--====================-->
 	<div class="contact" id="contact">
 			<div class="container">
-				<h2>Contact</h2>
+				<h2 class="section-header">Contact</h2>
 			</div><!-- end container -->
 		</div>
 	<!--====================-->
@@ -99,8 +128,8 @@
 	<!-- Start section footer -->
 	<!--====================-->
 		<div class="footer">
-			<div class="container">
-				<p>© 2018 Berkani oussama Team. All Rights Reserved</p>
+			<div class="container text-center">
+				<p>© 2019 Berkani oussama Team. All Rights Reserved</p>
 			</div><!-- end container -->
 		</div>
 	<!--====================-->
@@ -108,7 +137,7 @@
 	
 	<!-- start loading -->
 	<!--====================-->
-	<div class="loading">
+	<div class="loading d-flex justify-content-center align-items-center">
 		<div class="spinner"></div>
 	</div>
 	<!--====================-->
@@ -116,10 +145,9 @@
 
 	<!-- Start scripts -->
 	<!--====================-->
-	<script src="assets/js/jquery-3.2.1.min.js"></script>
-	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
 	<script src="assets/js/smooth-scroll.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
 	<script src="assets/js/script.js"></script>
 	<!--====================-->
 	<!-- End scripts -->
